@@ -1,5 +1,5 @@
 function display(value) {
-  var value = (document.getElementById("display").value += value);
+  var value = document.getElementById("display").value += value;
 }
 
 function solve() {
